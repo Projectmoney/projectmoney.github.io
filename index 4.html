@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Раскрутка</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Лучшие проекты для зароботка в интернете.Провереные проекты">
+	<meta name="author" lang="ru" content="Дмитрий Поваляй">
+	<link rel="stylesheet" href="./css/style-games.css">
+	<link rel="stylesheet" href="./css/style-video.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" charset="utf-8"></script>
+	<script type="text/javascript">
+    $(document).ready(function(){
+        
+        var $menu = $("#menu");
+            
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });//scroll
+        
+        $menu.hover(
+            function(){
+                if( $(this).hasClass('fixed') ){
+                    $(this).removeClass('transbg');
+                }
+            },
+            function(){
+                if( $(this).hasClass('fixed') ){
+                    $(this).addClass('transbg');
+                }
+            });//hover
+    });//jQuery
+	</script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				<img src="images/logo1.png">
+			</div>
+			<div id="menu" class="default">
+				<ul>
+					<li><a href="index 1.html">Игры & Money</a></li>
+					<li><a href="index 4.html">Раскрутка</a></li>
+					<li><a href="#">Дополнительные материалы</a></li>
+					<li><a href="index 2.html">Видео-блог</a></li>
+					<li><a href="index 3.html">Чат</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="page">
+			<h1>Хочешь продвинуть свой сайт или блог, тогда тебе сюда!</h1>
+			<div class="brd">
+				<div class="link">
+					<a href="http://www.seosprint.net/?ref=5656966" target="_blank" class="pseudo-class"><p class="strong">Отличный проект "taxi-money!"</p></a><br>
+					<a href="http://www.seosprint.net/?ref=5656966" target="_blank">
+					<img src="http://www.seosprint.net/baners/seo4x240x400.gif" width="240" height="400" border="0" alt="SEO sprint - Всё для максимальной раскрутки!" /></a>
+				</div>
+				<div class="description">
+					<p class="paragraf">СТАТИСТИКА</p><hr>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="foot-logo">
+				<a href="#"><img src="images/logo2.png"></a>
+				<div class="avtor">
+					<p>© 2016-2016 Dmitriy Povalay</p>
+				</div>
+			</div>
+			<div class="address">
+				E-mail: <a href="mailto://skinwolkers2012@ya.ru" class="pseudo-class">skinwolkers2012@ya.ru</a><br><br>
+				E-mail: <a href="mailto://mitiskin25@gmail.com" class="pseudo-class">mitiskin25@gmail.com</a><br><br>
+				Skype: <a href="https://www.skype.com/ru/" class="pseudo-class">skinwolkers2012<a>
+			</div>
+			<div class="social">
+				<a href="#"><img src="images/vk1.png"></a>
+			</div>
+			<div class="text">
+				<p>
+					Таким образом укрепление и развитие структуры способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
+				</p>
+			</div>
+			<div class="bg">
+				<a href="http://www.liveinternet.ru/"><img src="images/logo3.gif"></a><br><br>
+				<a href="http://xn--b1aaefabsd1cwaon.xn--p1ai/site/projectmoney.comlu.com" target="_blank" title="Уровень доверия сайту">
+				<img src="http://xn--b1aaefabsd1cwaon.xn--p1ai/img/buttons/projectmoney.comlu.com.jpg" /></a>
+			</div>
+		</div>
+	</body>
+</html>

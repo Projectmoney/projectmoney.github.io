@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher:400,400italic&subset=latin,cyrillic);
+
+@import url(https://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /*demo page style*/
+
+body {background: #f0f0f0;}
+h1{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+	/* The logo text*/ 
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+	margin:0; padding:0;
+}
+
+#wrapper {
+	width:920px;
+	margin:0 auto;
+	padding: 0;
+}
+
+
+    
+/*main menu*/
+#menu {
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 50px;
+	background: #FFE5B5;
+	
+	text-shadow:0 1px 1px black;
+   -moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#menu ul {padding:0; margin:0;}
+#menu li{
+	display: inline;
+	list-style:none;
+	margin: 5px 10px;
+}
+
+#menu li a {
+	padding:5px 10px;
+	color:#000000;
+	text-decoration: none;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+#menu li a:hover{
+	background: #222222;
+	color: #3ba0d9;
+
+	-webkit-transition-property: color, background;
+	-webkit-transition-duration: 1.3s, 0.5s;
+}
+.default {
+	width:940px;
+}
+.fixed {
+	position:fixed;
+	top:-5px; left:0;
+	width:100%;
+	padding:10px 0;
+	
+	-moz-box-shadow: 5px 5px 20px #333;
+	-webkit-box-shadow: 5px 5px 20px #333;
+	box-shadow: 5px 5px 20px #333;
+}
+.transbg {
+	background-color: rgba(255, 255, 255, 0.6)!important;
+}
+
+/*коментарий*/
+
+body {
+	background-color: #FFE5B5;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header {
+	background-image: url(../images/Источники-пассивного-дохода.jpg);
+	width: auto;
+	height: 490px;
+	margin: 0 auto;
+}
+
+#logo {
+	display: block;
+	margin-bottom: 341px;
+	padding-top: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: #3ba0d9;
+	font-family: "Philosopher", sans-serif;
+}
+
+#page {
+	background-color: rgba(250, 250, 250, 0.0);
+	width: 100%;
+	height: 1630px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+.paragraf {
+	text-align: center;
+	color: rgba(255,255,255,.9);
+	font-family: "Russo One", sans-serif;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.strong {
+	font-family: "Russo One", sans-serif;
+}
+
+.brd {
+	width: 600px;
+	height: 430px;
+	border: 4px double black;
+	background-color: rgba(250, 250, 250, 0.5);
+	padding: 10px;
+	float: left;
+	margin: 23px;
+}
+
+.link {
+	width: 280px;
+	height: 400px;
+	float: left;
+}
+
+.description {
+	width: 320px;
+	height: 400px;
+	float: right;
+	margin-top: 32px;
+	background-image: url(../images/34.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pseudo {
+	color: #3c97d1;
+}
+
+.pseudo:hover {
+	color: #222222;
+	
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 1.3s, 0.5s;
+}
+
+.pseudo-class {
+	color: #3c97d1;
+}
+
+.pseudo-class:hover {
+	color: white;
+}
+
+#footer {
+	background-color: #222222;
+	margin: 0 auto;
+	overflow:auto;
+}
+
+.foot-logo {
+	float:left;
+	padding:30px;
+}
+
+.avtor {
+	margin-top: 10px;
+	color: #919191;
+	font-family: "Philosopher", sans-serif;
+}
+
+.address {
+	padding-top:30px;
+	padding-left:100px;
+	float: left;
+	color: #919191;
+	font-family: "Philosopher", sans-serif;
+}
+
+.social {
+	float: left;
+	padding:10px;
+	padding-left:100px;
+}
+
+.text {
+	float: left;
+	width:330px;
+	padding:30px;
+	color: #919191;
+	font-family: "Philosopher", sans-serif;
+}
+
+.bg {
+	float:left;
+	padding:30px;
+}
